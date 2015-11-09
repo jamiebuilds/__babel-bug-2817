@@ -1,0 +1,17 @@
+{
+  "name": "babel-bug-2817",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js"
+  },
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.1.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.1.3",
+    "babel-plugin-transform-es3-member-expression-literals": "^6.0.14"
+  },
+  "private": true
+}
